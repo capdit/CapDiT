@@ -69,6 +69,25 @@ main {
   margin-bottom: 20px;
 }
 
+.model-figure {
+  margin: 0;
+}
+
+.model-pdf {
+  display: block;
+  width: 100%;
+  min-height: 760px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.model-figure figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
 .section-head {
   display: flex;
   justify-content: space-between;
@@ -168,5 +187,9 @@ select {
 
   .cards {
     grid-template-columns: 1fr;
+  }
+
+  .model-pdf {
+    min-height: 520px;
   }
 }
