@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anonymous TTS Demo</title>
+  <meta name="description" content="Anonymous supplementary audio demo for a zero-shot expressive TTS submission." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="hero">
+    <p class="eyebrow">Anonymous Submission Supplementary Material</p>
+    <h1>Anonymous Expressive TTS Demo</h1>
+    <p class="subtitle">Supplementary audio comparisons for a zero-shot text-to-speech submission with expressive paralinguistic vocalizations.</p>
+    <div class="meta">
+      <span>Task: Zero-shot TTS</span>
+      <span>Focus: Expressive Paralinguistics</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel" id="overview">
+      <h2>Overview</h2>
+      <p>
+        This page presents side-by-side audio comparisons for model outputs, including reference speech, text prompts, and expressive vocalization cases.
+      </p>
+      <p>
+        Replace sample entries in data/samples.json to publish your final results.
+      </p>
+    </section>
+
+    <section class="panel" id="audio-demo">
+      <div class="section-head">
+        <h2>Audio Comparisons</h2>
+        <div class="controls">
+          <label for="categoryFilter">Category</label>
+          <select id="categoryFilter"></select>
+        </div>
+      </div>
+      <div id="cards" class="cards" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Anonymous demo page for peer review. No author-identifying information is included.</p>
+  </footer>
+
+  <template id="card-template">
+    <article class="card reveal">
+      <header>
+        <h3 class="sample-id"></h3>
+        <p class="sample-meta"></p>
+      </header>
+      <p class="text"></p>
+      <div class="tracks"></div>
+    </article>
+  </template>
+
+  <template id="track-template">
+    <div class="track">
+      <div class="track-head">
+        <span class="track-name"></span>
+        <span class="track-tag"></span>
+      </div>
+      <audio controls preload="none" class="track-player"></audio>
+    </div>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

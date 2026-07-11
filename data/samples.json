@@ -1,0 +1,48 @@
+{
+  "samples": [
+    {
+      "id": "Sample-001",
+      "category": "Laughter",
+      "text": "I thought it was serious, but then I just burst into laughter.",
+      "tracks": [
+        {
+          "name": "Ground Truth",
+          "tag": "GT",
+          "path": "../demo/gt/example_001.wav"
+        },
+        {
+          "name": "CapDiT",
+          "tag": "Ours",
+          "path": "../demo/CosyVoice3_CapDiT/example_001.wav"
+        },
+        {
+          "name": "Baseline",
+          "tag": "FT",
+          "path": "../demo/CosyVoice3_FT/example_001.wav"
+        }
+      ]
+    },
+    {
+      "id": "Sample-002",
+      "category": "Crying",
+      "text": "I am trying to stay calm, but my voice starts trembling and I cry.",
+      "tracks": [
+        {
+          "name": "Ground Truth",
+          "tag": "GT",
+          "path": "../demo/gt/example_002.wav"
+        },
+        {
+          "name": "CapDiT",
+          "tag": "Ours",
+          "path": "../demo/F5_v1_CapDiT/example_002.wav"
+        },
+        {
+          "name": "Baseline",
+          "tag": "FT",
+          "path": "../demo/F5_v1_FT/example_002.wav"
+        }
+      ]
+    }
+  ]
+}
