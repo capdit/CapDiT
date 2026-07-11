@@ -28,11 +28,9 @@
     <section class="panel system-overview" id="system-overview">
       <h2>System Overview</h2>
       <figure class="model-figure">
-        <object data="model.pdf" type="application/pdf" class="model-pdf">
-          <p>
-            The model overview is available as <a href="model.pdf">model.pdf</a>.
-          </p>
-        </object>
+        <div class="model-frame" id="model-frame" aria-label="CapDiT model overview figure">
+          <div class="model-loading" id="model-loading">Loading model figure...</div>
+        </div>
         <figcaption>
           Fig. 1. Overview of the CapDiT architecture. Left: The overall framework based on the F5-TTS backbone. Right: Detailed structure of a single CapDiT block. Each block augments the standard DiT design with a cross-attention module that attends to caption embeddings.
         </figcaption>

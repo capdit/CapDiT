@@ -6,6 +6,50 @@ async function loadData() {
   return response.json();
 }
 
+async function renderModelFigure() {
+  const frame = document.getElementById("model-frame");
+  const loading = document.getElementById("model-loading");
+
+  if (!frame || !loading) {
+    return;
+  }
+
+  try {
+    const pdfjsLib = await import("https://cdn.jsdelivr.net/npm/pdfjs-dist@4.7.76/build/pdf.min.mjs");
+    pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.7.76/build/pdf.worker.min.mjs";
+
+    const pdf = await pdfjsLib.getDocument("model.pdf").promise;
+    frame.innerHTML = "";
+
+    const renderPage = async (pageNumber) => {
+      const page = await pdf.getPage(pageNumber);
+      const viewport = page.getViewport({ scale: 1 });
+      const canvas = document.createElement("canvas");
+      const context = canvas.getContext("2d");
+      const availableWidth = frame.clientWidth - 24;
+      const scale = availableWidth / viewport.width;
+      const scaledViewport = page.getViewport({ scale });
+
+      canvas.width = Math.floor(scaledViewport.width);
+      canvas.height = Math.floor(scaledViewport.height);
+
+      await page.render({
+        canvasContext: context,
+        viewport: scaledViewport,
+      }).promise;
+
+      frame.appendChild(canvas);
+    };
+
+    for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber += 1) {
+      await renderPage(pageNumber);
+    }
+  } catch (error) {
+    loading.innerHTML = `The model overview is available as <a href="model.pdf">model.pdf</a>.`;
+    console.error("Failed to render model.pdf", error);
+  }
+}
+
 function buildFilter(categories, selectEl) {
   selectEl.innerHTML = "";
   const all = document.createElement("option");
@@ -57,6 +101,8 @@ async function init() {
   const filterEl = document.getElementById("categoryFilter");
   const cardTpl = document.getElementById("card-template");
   const trackTpl = document.getElementById("track-template");
+
+  renderModelFigure();
 
   try {
     const data = await loadData();

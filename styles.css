@@ -73,12 +73,32 @@ main {
   margin: 0;
 }
 
-.model-pdf {
-  display: block;
+.model-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
   width: 100%;
-  min-height: 760px;
+  overflow: hidden;
+  background: #fff;
   border: 1px solid var(--line);
   border-radius: 12px;
+  padding: 12px;
+}
+
+.model-loading {
+  min-height: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.model-frame canvas {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  border-radius: 8px;
   background: #fff;
 }
 
@@ -189,7 +209,7 @@ select {
     grid-template-columns: 1fr;
   }
 
-  .model-pdf {
-    min-height: 520px;
+  .model-loading {
+    min-height: 420px;
   }
 }
