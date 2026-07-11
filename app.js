@@ -54,7 +54,7 @@ function buildFilter(categories, selectEl) {
   selectEl.innerHTML = "";
   const all = document.createElement("option");
   all.value = "all";
-  all.textContent = "全部";
+  all.textContent = "All";
   selectEl.appendChild(all);
 
   categories.forEach((c) => {
