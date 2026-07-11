@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Anonymous TTS Demo</title>
-  <meta name="description" content="Anonymous supplementary audio demo for a zero-shot expressive TTS submission." />
+  <title>CapDiT: A Caption-Guided Diffusion Transformer for Zero-Shot Text-to-Speech with Expressive Paralinguistic Vocalizations</title>
+  <meta name="description" content="CapDiT audio demo and abstract." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
@@ -14,27 +14,18 @@
   <div class="bg-grid" aria-hidden="true"></div>
 
   <header class="hero">
-    <p class="eyebrow">Anonymous Submission Supplementary Material</p>
-    <h1>Anonymous Expressive TTS Demo</h1>
-    <p class="subtitle">Supplementary audio comparisons for a zero-shot text-to-speech submission with expressive paralinguistic vocalizations.</p>
-    <div class="meta">
-      <span>Task: Zero-shot TTS</span>
-      <span>Focus: Expressive Paralinguistics</span>
-    </div>
+    <h1>CapDiT: A Caption-Guided Diffusion Transformer for Zero-Shot Text-to-Speech with Expressive Paralinguistic Vocalizations</h1>
   </header>
 
   <main>
-    <section class="panel" id="overview">
-      <h2>Overview</h2>
+    <section class="panel abstract" id="abstract">
+      <h2>Abstract</h2>
       <p>
-        This page presents side-by-side audio comparisons for model outputs, including reference speech, text prompts, and expressive vocalization cases.
-      </p>
-      <p>
-        Replace sample entries in data/samples.json to publish your final results.
+        Current zero-shot text-to-speech (TTS) systems excel at voice cloning but largely neglect paralinguistic vocalizations such as laughter, sighs, and interjections, which are essential for natural and expressive speech. Existing approaches suffer from an inherent trade-off between precise positional control via categorical tokens and fine-grained expressive rendering through natural language captions. In this paper, we propose <strong>CapDiT</strong>, a caption-guided diffusion transformer framework that reconciles this trade-off through a dual-conditioning mechanism. Our approach introduces three key innovations: (1) a refinement pipeline that transforms coarse categorical labels from closed-vocabulary datasets into rich, open-vocabulary captions using a large multimodal language model; (2) a cross-attention DiT architecture that integrates caption embeddings to guide the diffusion process for nuanced expressive synthesis while preserving positional control via special tokens; and (3) a Decoupled Classifier-Free Guidance mechanism that independently balances timbre fidelity and expressive adherence. We integrate CapDiT into two representative zero-shot TTS backbones—F5-TTS and CosyVoice 3—and demonstrate consistent improvements across both. Our framework establishes a broadly applicable solution for expressive speech synthesis with fine-grained control over paralinguistic vocalizations.
       </p>
     </section>
 
-    <section class="panel" id="audio-demo">
+    <section class="panel" id="audio-comparisons">
       <div class="section-head">
         <h2>Audio Comparisons</h2>
         <div class="controls">
@@ -45,10 +36,6 @@
       <div id="cards" class="cards" aria-live="polite"></div>
     </section>
   </main>
-
-  <footer class="footer">
-    <p>Anonymous demo page for peer review. No author-identifying information is included.</p>
-  </footer>
 
   <template id="card-template">
     <article class="card reveal">

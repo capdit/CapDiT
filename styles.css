@@ -36,19 +36,8 @@ body {
 .hero {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 56px 20px 24px;
+  padding: 56px 20px 18px;
   animation: rise 700ms ease-out;
-}
-
-.eyebrow {
-  display: inline-block;
-  margin: 0 0 10px;
-  padding: 4px 10px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  font-size: 12px;
-  color: var(--muted);
-  background: rgba(255, 255, 255, 0.6);
 }
 
 h1, h2, h3 {
@@ -61,31 +50,14 @@ h1 {
   letter-spacing: 0.4px;
 }
 
-.subtitle {
-  max-width: 820px;
-  margin-top: 10px;
-  color: var(--muted);
-}
-
-.meta {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-top: 16px;
-}
-
-.meta span {
-  padding: 6px 10px;
-  border-radius: 8px;
-  border: 1px solid var(--line);
-  font-size: 13px;
-  background: rgba(255, 252, 245, 0.8);
-}
-
 main {
   max-width: 1100px;
   margin: 0 auto;
   padding: 12px 20px 40px;
+}
+
+.abstract p {
+  margin-bottom: 0;
 }
 
 .panel {
@@ -162,14 +134,6 @@ select {
 
 .track-player {
   width: 100%;
-}
-
-.footer {
-  max-width: 1100px;
-  margin: 0 auto 30px;
-  padding: 0 20px;
-  color: var(--muted);
-  font-size: 13px;
 }
 
 .reveal {
