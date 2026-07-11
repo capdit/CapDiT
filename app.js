@@ -54,7 +54,7 @@ function buildFilter(categories, selectEl) {
   selectEl.innerHTML = "";
   const all = document.createElement("option");
   all.value = "all";
-  all.textContent = "All";
+  all.textContent = "全部";
   selectEl.appendChild(all);
 
   categories.forEach((c) => {
@@ -108,7 +108,17 @@ async function init() {
 
   try {
     const data = await loadData();
-    renderCards(data.samples, cardsEl, cardTpl, trackTpl);
+    const categories = [...new Set(data.samples.map((sample) => sample.category))].sort();
+    buildFilter(categories, filterEl);
+
+    const doRender = () => {
+      const selected = filterEl.value;
+      const view = selected === "all" ? data.samples : data.samples.filter((sample) => sample.category === selected);
+      renderCards(view, cardsEl, cardTpl, trackTpl);
+    };
+
+    filterEl.addEventListener("change", doRender);
+    doRender();
   } catch (error) {
     cardsEl.innerHTML = `<p>Unable to load demo data. ${error.message}</p>`;
   }
