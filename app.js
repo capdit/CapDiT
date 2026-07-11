@@ -78,16 +78,18 @@ function renderCards(samples, cardsEl, cardTpl, trackTpl) {
   samples.forEach((sample, index) => {
     const card = cardTpl.content.firstElementChild.cloneNode(true);
     card.style.animationDelay = `${index * 50}ms`;
+    card.classList.add("sample-card");
 
     card.querySelector(".sample-id").textContent = sample.id;
-    card.querySelector(".sample-meta").textContent = `Category: ${sample.category}`;
-    card.querySelector(".text").textContent = sample.text;
+    card.querySelector(".sample-meta").textContent = sample.category;
+    card.querySelector(".sample-transcription").textContent = sample.transcription;
+    card.querySelector(".sample-caption").textContent = sample.caption;
 
     const tracks = card.querySelector(".tracks");
     sample.tracks.forEach((track) => {
       const row = trackTpl.content.firstElementChild.cloneNode(true);
       row.querySelector(".track-name").textContent = track.name;
-      row.querySelector(".track-tag").textContent = track.tag || "";
+      row.querySelector(".track-tag").textContent = track.name === "Prompt" ? "Text" : "Audio";
       row.querySelector(".track-player").src = track.path;
       tracks.appendChild(row);
     });
@@ -106,17 +108,7 @@ async function init() {
 
   try {
     const data = await loadData();
-    const categories = [...new Set(data.samples.map((s) => s.category))].sort();
-    buildFilter(categories, filterEl);
-
-    const doRender = () => {
-      const selected = filterEl.value;
-      const view = selected === "all" ? data.samples : data.samples.filter((s) => s.category === selected);
-      renderCards(view, cardsEl, cardTpl, trackTpl);
-    };
-
-    filterEl.addEventListener("change", doRender);
-    doRender();
+    renderCards(data.samples, cardsEl, cardTpl, trackTpl);
   } catch (error) {
     cardsEl.innerHTML = `<p>Unable to load demo data. ${error.message}</p>`;
   }

@@ -1,46 +1,1242 @@
 {
   "samples": [
     {
-      "id": "Sample-001",
-      "category": "Laughter",
-      "text": "I thought it was serious, but then I just burst into laughter.",
+      "id": "000000",
+      "category": "laughter",
+      "transcription": "很开心，其实其实蛮开心的露脸，[laughter]我不知道欸哈，反正是…",
+      "caption": "日常聊天中因露脸话题自然流露愉悦笑意，伴随轻快短笑展现轻松氛围",
       "tracks": [
         {
+          "name": "Prompt",
+          "path": "media/prompt/000000.mp3"
+        },
+        {
           "name": "Ground Truth",
-          "tag": "GT",
-          "path": "../demo/gt/example_001.wav"
+          "path": "media/gt/000000.mp3"
         },
         {
-          "name": "CapDiT",
-          "tag": "Ours",
-          "path": "../demo/CosyVoice3_CapDiT/example_001.wav"
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000000.wav"
         },
         {
-          "name": "Baseline",
-          "tag": "FT",
-          "path": "../demo/CosyVoice3_FT/example_001.wav"
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000000.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000000.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000000.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000000.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000000.wav"
         }
       ]
     },
     {
-      "id": "Sample-002",
-      "category": "Crying",
-      "text": "I am trying to stay calm, but my voice starts trembling and I cry.",
+      "id": "000062",
+      "category": "laughter",
+      "transcription": "[laughter]，别人布一个迷雾阵就觉得对方是灵魂伴侣了。大家一定要睁大双眼，好好地去考虑。",
+      "caption": "In a casual social commentary, the speaker begins with a self-mocking chuckle before delivering a serious warning about being deceived by illusions.",
       "tracks": [
         {
+          "name": "Prompt",
+          "path": "media/prompt/000062.mp3"
+        },
+        {
           "name": "Ground Truth",
-          "tag": "GT",
-          "path": "../demo/gt/example_002.wav"
+          "path": "media/gt/000062.mp3"
         },
         {
-          "name": "CapDiT",
-          "tag": "Ours",
-          "path": "../demo/F5_v1_CapDiT/example_002.wav"
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000062.wav"
         },
         {
-          "name": "Baseline",
-          "tag": "FT",
-          "path": "../demo/F5_v1_FT/example_002.wav"
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000062.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000062.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000062.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000062.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000062.wav"
+        }
+      ]
+    },
+    {
+      "id": "000170",
+      "category": "laughter",
+      "transcription": "今天非常开心啊，也遇到了同样可能缺水的尉迟琳嘉老师[laughter]。",
+      "caption": "In a livestream commentary, the speaker expresses joyful excitement while making a playful joke about dehydration, followed by a light chuckle.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000170.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000170.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000170.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000170.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000170.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000170.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000170.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000170.wav"
+        }
+      ]
+    },
+    {
+      "id": "000179",
+      "category": "laughter",
+      "transcription": "你想象一下吧。[laughter]，好，但是思想上一定是成熟的。比如说家里面想到了什么样的事情，那么一定会给他做得很好，诶，面面俱到。所以如果一个人在你面前，你看啊平时跟你什么…",
+      "caption": "在日常闲聊中，说话者从轻快愉悦的语气转为认真解释，开场处带有一声温和的轻笑。",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000179.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000179.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000179.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000179.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000179.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000179.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000179.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000179.wav"
+        }
+      ]
+    },
+    {
+      "id": "000338",
+      "category": "laughter",
+      "transcription": "康奈尔有一万四千名本科生，[laughter]，招好多学生哦，他们是缺钱吗？",
+      "caption": "In a casual conversation, the speaker expresses amusement about Cornell's large student body with a light chuckle and a teasing question about funding.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000338.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000338.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000338.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000338.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000338.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000338.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000338.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000338.wav"
+        }
+      ]
+    },
+    {
+      "id": "000546",
+      "category": "laughter",
+      "transcription": "将将，那我现在就收拾好要出门啦，[laughter]。",
+      "caption": "In a daily chat, the speaker is cheerful and excited about leaving, ending with a playful laugh.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000546.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000546.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000546.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000546.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000546.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000546.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000546.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000546.wav"
+        }
+      ]
+    },
+    {
+      "id": "000025",
+      "category": "cough",
+      "transcription": "[cough]，今天该我了，先说好，害怕的人现在就可以退出。",
+      "caption": "In a game challenge scenario, the speaker's confident and mischievous tone shifts from neutral to bold, starting with a slight throat-clearing cough.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000025.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000025.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000025.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000025.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000025.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000025.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000025.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000025.wav"
+        }
+      ]
+    },
+    {
+      "id": "000029",
+      "category": "cough",
+      "transcription": "东西已经支开了，今天的水面好平静啊，早晨有风，[cough]虽然不太舒服啊，像这个钓鱼治百病。",
+      "caption": "户外钓鱼时的轻松幽默闲聊，情绪平静中带惬意，伴随轻微咳嗽",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000029.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000029.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000029.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000029.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000029.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000029.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000029.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000029.wav"
+        }
+      ]
+    },
+    {
+      "id": "000194",
+      "category": "cough",
+      "transcription": "这这个[cough]这位姐姐她笑得很开心的，我想我相信她是很满意的。",
+      "caption": "In a casual conversation, the speaker observes another person's happiness with a brief throat-clearing cough.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000194.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000194.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000194.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000194.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000194.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000194.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000194.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000194.wav"
+        }
+      ]
+    },
+    {
+      "id": "000035",
+      "category": "sigh",
+      "transcription": "然后再用一技能去消耗一下，慢慢消耗。他一技能跳出来时候我就是二技能来吸血，[sigh]，香啊。",
+      "caption": "游戏直播解说中，说话者经历紧张后转为兴奋，伴随一声释然轻叹。",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000035.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000035.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000035.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000035.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000035.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000035.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000035.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000035.wav"
+        }
+      ]
+    },
+    {
+      "id": "000037",
+      "category": "sigh",
+      "transcription": "[sigh]好烦啊，我一定要把这个痘印消灭掉，我觉得这种细头的眉笔很适合新手上手。",
+      "caption": "In a beauty vlog, the speaker expresses frustration turning into determination with an initial frustrated sigh about acne marks.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000037.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000037.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000037.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000037.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000037.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000037.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000037.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000037.wav"
+        }
+      ]
+    },
+    {
+      "id": "000038",
+      "category": "sigh",
+      "transcription": "不知道力求上进就会怪社会，怪大环境。[sigh]，一代不如一代。",
+      "caption": "A person expresses frustration about societal issues with a resigned sigh, conveying disappointment in declining generations.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000038.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000038.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000038.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000038.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000038.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000038.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000038.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000038.wav"
+        }
+      ]
+    },
+    {
+      "id": "000049",
+      "category": "uhm",
+      "transcription": "然后我们同步也从那个[uhm]直播的选场地的部分，我们也去选",
+      "caption": "直播策划讨论中，说话者平和解释时略带犹豫，出现思考停顿。",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000049.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000049.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000049.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000049.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000049.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000049.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000049.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000049.wav"
+        }
+      ]
+    },
+    {
+      "id": "000085",
+      "category": "uhm",
+      "transcription": "[uhm]我童年时期的偶像，蔡明老师跟潘长江老师，俩人是春晚的常客，我从小就看。",
+      "caption": "In a livestream commentary, the speaker shares nostalgic fondness for childhood idols with a slight hesitation at the beginning.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000085.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000085.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000085.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000085.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000085.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000085.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000085.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000085.wav"
+        }
+      ]
+    },
+    {
+      "id": "000048",
+      "category": "question-ei",
+      "transcription": "[question-ei]忘记…忘记位置了，哪儿来着在…在好像应该在这儿。",
+      "caption": "A person in a daily chat forgets where something is, expressing confusion with hesitant speech and questioning tone before recalling.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000048.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000048.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000048.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000048.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000048.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000048.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000048.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000048.wav"
+        }
+      ]
+    },
+    {
+      "id": "000146",
+      "category": "question-ei",
+      "transcription": "但是这个软件里面呢，有鼓声。[question-ei]，敲东西是吗？敲东西我会，敲响就行了是吗？听个响，所以我来试一下嗷\"",
+      "caption": "A person testing software features with curious questioning tone, transitioning to active engagement.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000146.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000146.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000146.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000146.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000146.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000146.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000146.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000146.wav"
+        }
+      ]
+    },
+    {
+      "id": "000059",
+      "category": "question-ah",
+      "transcription": "是美极了哈，这好几个湖[question-ah]？",
+      "caption": "In a casual nature admiration chat, the speaker expresses awe then curiosity with a soft questioning tone.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000059.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000059.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000059.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000059.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000059.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000059.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000059.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000059.wav"
+        }
+      ]
+    },
+    {
+      "id": "000097",
+      "category": "question-ah",
+      "transcription": "质疑，反问，愠怒               你说你这拉过来让我们干啥呀，是我能进去洗，还是我妈能进去洗啊[question-ah]？你们整得俺都不好意思下车了。",
+      "caption": "In a casual car conversation, the speaker expresses embarrassment after questioning the situation with mild confusion.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000097.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000097.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000097.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000097.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000097.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000097.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000097.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000097.wav"
+        }
+      ]
+    },
+    {
+      "id": "000101",
+      "category": "question-ah",
+      "transcription": "但你这时候借他人之口骂人家，你说你还配做个人吗[question-ah]？",
+      "caption": "In a drama confrontation scene, the speaker expresses indignation with an indignant rhetorical 'ah' particle.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000101.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000101.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000101.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000101.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000101.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000101.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000101.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000101.wav"
+        }
+      ]
+    },
+    {
+      "id": "000141",
+      "category": "question-en",
+      "transcription": "嗨，我叫黄蛋疼，我并非是一名宅男，只是看起来像而已。[question-en]？你问我为何辗转难眠？",
+      "caption": "直播个人介绍中，说话者以轻松自嘲的语气讲述，结尾以轻问语气引发思考。",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000141.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000141.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000141.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000141.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000141.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000141.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000141.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000141.wav"
+        }
+      ]
+    },
+    {
+      "id": "000142",
+      "category": "question-en",
+      "transcription": "哎，敢不敢转过身来，[question-en]？",
+      "caption": "动画配音中，角色以不耐烦的叹息开场，随后用挑衅式疑问挑战对方。",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000142.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000142.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000142.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000142.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000142.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000142.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000142.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000142.wav"
+        }
+      ]
+    },
+    {
+      "id": "000157",
+      "category": "question-oh",
+      "transcription": "[question-oh]，然后再来，这一只要怎么吸它，等一下。",
+      "caption": "日常闲聊中，说话者因操作疑问而好奇迟疑，伴随轻声疑问声。",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000157.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000157.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000157.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000157.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000157.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000157.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000157.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000157.wav"
+        }
+      ]
+    },
+    {
+      "id": "000090",
+      "category": "surprise-ah",
+      "transcription": "嘲讽，夸张                  哥们儿我就服你[surprise-ah]，姓苏的我就服你大写的服。",
+      "caption": "In a casual conversation, the speaker expresses admiration with a surprised exclamation.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000090.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000090.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000090.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000090.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000090.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000090.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000090.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000090.wav"
+        }
+      ]
+    },
+    {
+      "id": "000094",
+      "category": "surprise-ah",
+      "transcription": "放松，叹气                  [surprise-ah]有一点如释重负的感觉，就是给自己一个喘口气的机会。那也是到那个时候我才发现其实我已经很累了。对所以那阵子要好好地休息，可是…",
+      "caption": "In a personal conversation, the speaker expresses relief followed by tired realization, marked by an initial relieved sigh.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000094.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000094.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000094.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000094.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000094.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000094.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000094.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000094.wav"
+        }
+      ]
+    },
+    {
+      "id": "000096",
+      "category": "surprise-ah",
+      "transcription": "感慨                        困难或怎么样的话，还有这一群人一直在…[surprise-ah]在在支持我。",
+      "caption": "In a livestream confession, the speaker expresses grateful surprise with a light sigh of realization.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000096.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000096.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000096.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000096.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000096.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000096.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000096.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000096.wav"
+        }
+      ]
+    },
+    {
+      "id": "000114",
+      "category": "surprise-oh",
+      "transcription": "[surprise-oh]哎呀明白明白，哎呀是是是，看来这个电流真是…",
+      "caption": "In a casual technical discussion, the speaker expresses surprise turning into confirmation with a sudden realization exclamation.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000114.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000114.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000114.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000114.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000114.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000114.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000114.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000114.wav"
+        }
+      ]
+    },
+    {
+      "id": "000117",
+      "category": "surprise-oh",
+      "transcription": "你用洗鼻器去清洗的时候呢，[surprise-oh]可以把它冲洗掉，让身体的抵抗力呢…",
+      "caption": "In a health advice context, the speaker maintains a calm tone with a brief moment of mild surprise during explanation.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000117.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000117.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000117.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000117.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000117.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000117.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000117.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000117.wav"
+        }
+      ]
+    },
+    {
+      "id": "000104",
+      "category": "dissatisfaction-hnn",
+      "transcription": "一百三十万紧急特别捐款，[dissatisfaction-hnn]你说这钱干嘛的？",
+      "caption": "Livestream commentary questioning emergency donation funds' use, with a scoffing hum expressing dissatisfaction.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000104.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000104.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000104.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000104.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000104.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000104.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000104.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000104.wav"
+        }
+      ]
+    },
+    {
+      "id": "000125",
+      "category": "dissatisfaction-hnn",
+      "transcription": "[dissatisfaction-hnn]限速一百二只能跑八十。",
+      "caption": "A driver expresses dissatisfaction about slow speed in daily chat with a frustrated sigh.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000125.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000125.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000125.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000125.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000125.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000125.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000125.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000125.wav"
+        }
+      ]
+    },
+    {
+      "id": "000133",
+      "category": "confirmation-en",
+      "transcription": "[confirmation-en]，这样比赛结果就充满了悬念。",
+      "caption": "Livestream sports commentary with suspenseful emotion, featuring calm confirmation of suspense.",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000133.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000133.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000133.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000133.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000133.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000133.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000133.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000133.wav"
+        }
+      ]
+    },
+    {
+      "id": "000136",
+      "category": "confirmation-en",
+      "transcription": "你知道吗？在我们这个地球上有一条定律，[confirmation-en]它主宰了所有生命长达四十亿年内，真的，从最小的细菌到最大的恐龙，所有生物都得乖乖听它的话。",
+      "caption": "科普纪录片旁白中，说话者以好奇开场，通过强调式确认展现自信，情绪逐渐坚定。",
+      "tracks": [
+        {
+          "name": "Prompt",
+          "path": "media/prompt/000136.mp3"
+        },
+        {
+          "name": "Ground Truth",
+          "path": "media/gt/000136.mp3"
+        },
+        {
+          "name": "CosyVoice3",
+          "path": "media/CosyVoice3/000136.wav"
+        },
+        {
+          "name": "OmniVoice",
+          "path": "media/OmniVoice/000136.wav"
+        },
+        {
+          "name": "F5_v1_FT",
+          "path": "media/F5_v1_FT/000136.wav"
+        },
+        {
+          "name": "CosyVoice3_FT",
+          "path": "media/CosyVoice3_FT/000136.wav"
+        },
+        {
+          "name": "F5_v1_CapDiT",
+          "path": "media/F5_v1_CapDiT/000136.wav"
+        },
+        {
+          "name": "CosyVoice3_CapDiT",
+          "path": "media/CosyVoice3_CapDiT/000136.wav"
         }
       ]
     }

@@ -40,10 +40,6 @@
     <section class="panel" id="audio-comparisons">
       <div class="section-head">
         <h2>Audio Comparisons</h2>
-        <div class="controls">
-          <label for="categoryFilter">Category</label>
-          <select id="categoryFilter"></select>
-        </div>
       </div>
       <div id="cards" class="cards" aria-live="polite"></div>
     </section>
@@ -51,12 +47,23 @@
 
   <template id="card-template">
     <article class="card reveal">
-      <header>
-        <h3 class="sample-id"></h3>
-        <p class="sample-meta"></p>
-      </header>
-      <p class="text"></p>
-      <div class="tracks"></div>
+      <div class="sample-left">
+        <header class="sample-title">
+          <h3 class="sample-id"></h3>
+          <p class="sample-meta"></p>
+        </header>
+        <div class="sample-block">
+          <h4>Transcription</h4>
+          <p class="sample-transcription"></p>
+        </div>
+        <div class="sample-block">
+          <h4>Caption</h4>
+          <p class="sample-caption"></p>
+        </div>
+      </div>
+      <div class="sample-right">
+        <div class="tracks"></div>
+      </div>
     </article>
   </template>
 

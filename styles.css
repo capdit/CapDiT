@@ -122,6 +122,10 @@ main {
   gap: 8px;
 }
 
+#audio-comparisons {
+  overflow: hidden;
+}
+
 select {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -131,9 +135,9 @@ select {
 }
 
 .cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .card {
@@ -143,28 +147,71 @@ select {
   background: #fffdf8;
 }
 
+.sample-card {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.9fr) minmax(0, 1.6fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.sample-left {
+  min-width: 0;
+}
+
+.sample-title {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
 .sample-meta {
-  margin: 4px 0 10px;
+  margin: 0;
   color: var(--muted);
   font-size: 13px;
 }
 
-.text {
-  margin: 0 0 12px;
-  padding-left: 10px;
-  border-left: 3px solid var(--brand-2);
+.sample-block {
+  margin-top: 10px;
+}
+
+.sample-block h4 {
+  margin: 0 0 6px;
+  font-size: 13px;
+  color: var(--brand);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.sample-block p {
+  margin: 0;
   color: #2f3438;
 }
 
+.sample-right {
+  min-width: 0;
+}
+
+.tracks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+}
+
 .track {
-  margin: 10px 0;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
 }
 
 .track-head {
   display: flex;
   justify-content: space-between;
   font-size: 13px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .track-tag {
@@ -206,6 +253,14 @@ select {
   }
 
   .cards {
+    gap: 12px;
+  }
+
+  .sample-card {
+    grid-template-columns: 1fr;
+  }
+
+  .tracks {
     grid-template-columns: 1fr;
   }
 
