@@ -58,7 +58,7 @@
         },
         {
           "name": "CosyVoice3",
-          "path": "media/CosyVoice3/000062.wav"
+          "path": "media/CosyVoice3_cross_refine/NV-Bench/000062.wav"
         },
         {
           "name": "OmniVoice",
@@ -864,6 +864,7 @@
     {
       "id": "000114",
       "category": "surprise-oh",
+      "display_title": "Sudden Realization",
       "transcription": "[surprise-oh]哎呀明白明白，哎呀是是是，看来这个电流真是…",
       "caption": "In a casual technical discussion, the speaker expresses surprise turning into confirmation with a sudden realization exclamation.",
       "tracks": [
@@ -904,6 +905,7 @@
     {
       "id": "000117",
       "category": "surprise-oh",
+      "display_title": "Mild Surprise",
       "transcription": "你用洗鼻器去清洗的时候呢，[surprise-oh]可以把它冲洗掉，让身体的抵抗力呢…",
       "caption": "In a health advice context, the speaker maintains a calm tone with a brief moment of mild surprise during explanation.",
       "tracks": [
@@ -944,6 +946,7 @@
     {
       "id": "000104",
       "category": "dissatisfaction-hnn",
+      "display_title": "Dissatisfaction",
       "transcription": "一百三十万紧急特别捐款，[dissatisfaction-hnn]你说这钱干嘛的？",
       "caption": "Livestream commentary questioning emergency donation funds' use, with a scoffing hum expressing dissatisfaction.",
       "tracks": [
@@ -982,48 +985,9 @@
       ]
     },
     {
-      "id": "000125",
-      "category": "dissatisfaction-hnn",
-      "transcription": "[dissatisfaction-hnn]限速一百二只能跑八十。",
-      "caption": "A driver expresses dissatisfaction about slow speed in daily chat with a frustrated sigh.",
-      "tracks": [
-        {
-          "name": "Prompt",
-          "path": "media/prompt/000125.mp3"
-        },
-        {
-          "name": "Ground Truth",
-          "path": "media/gt/000125.mp3"
-        },
-        {
-          "name": "CosyVoice3",
-          "path": "media/CosyVoice3/000125.wav"
-        },
-        {
-          "name": "OmniVoice",
-          "path": "media/OmniVoice/000125.wav"
-        },
-        {
-          "name": "F5_v1_FT",
-          "path": "media/F5_v1_FT/000125.wav"
-        },
-        {
-          "name": "CosyVoice3_FT",
-          "path": "media/CosyVoice3_FT/000125.wav"
-        },
-        {
-          "name": "F5_v1_CapDiT",
-          "path": "media/F5_v1_CapDiT/000125.wav"
-        },
-        {
-          "name": "CosyVoice3_CapDiT",
-          "path": "media/CosyVoice3_CapDiT/000125.wav"
-        }
-      ]
-    },
-    {
       "id": "000133",
       "category": "confirmation-en",
+      "display_title": "Calm Confirmation",
       "transcription": "[confirmation-en]，这样比赛结果就充满了悬念。",
       "caption": "Livestream sports commentary with suspenseful emotion, featuring calm confirmation of suspense.",
       "tracks": [
@@ -1064,6 +1028,7 @@
     {
       "id": "000136",
       "category": "confirmation-en",
+      "display_title": "Emphatic Confirmation",
       "transcription": "你知道吗？在我们这个地球上有一条定律，[confirmation-en]它主宰了所有生命长达四十亿年内，真的，从最小的细菌到最大的恐龙，所有生物都得乖乖听它的话。",
       "caption": "科普纪录片旁白中，说话者以好奇开场，通过强调式确认展现自信，情绪逐渐坚定。",
       "tracks": [
