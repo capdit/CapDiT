@@ -530,7 +530,8 @@
           "name": "CosyVoice3_CapDiT",
           "path": "media/CosyVoice3_CapDiT/000048.wav"
         }
-      ]
+      ],
+      "display_title": "Confused Ei"
     },
     {
       "id": "000146",
@@ -570,7 +571,8 @@
           "name": "CosyVoice3_CapDiT",
           "path": "media/CosyVoice3_CapDiT/000146.wav"
         }
-      ]
+      ],
+      "display_title": "Curious Ei"
     },
     {
       "id": "000059",
@@ -610,13 +612,14 @@
           "name": "CosyVoice3_CapDiT",
           "path": "media/CosyVoice3_CapDiT/000059.wav"
         }
-      ]
+      ],
+      "display_title": "Interrogative Ah"
     },
     {
       "id": "000097",
       "category": "question-ah",
-      "transcription": "质疑，反问，愠怒               你说你这拉过来让我们干啥呀，是我能进去洗，还是我妈能进去洗啊[question-ah]？你们整得俺都不好意思下车了。",
-      "caption": "In a casual car conversation, the speaker expresses embarrassment after questioning the situation with mild confusion.",
+      "transcription": "你说你这拉过来让我们干啥呀，是我能进去洗，还是我妈能进去洗啊[question-ah]？你们整得俺都不好意思下车了。",
+      "caption": "In a casual car conversation, the speaker expresses embarrassment after questioning the situation with sarcastic tone.",
       "tracks": [
         {
           "name": "Prompt",
@@ -650,7 +653,8 @@
           "name": "CosyVoice3_CapDiT",
           "path": "media/CosyVoice3_CapDiT/000097.wav"
         }
-      ]
+      ],
+      "display_title": "Sarcastic Questioning"
     },
     {
       "id": "000101",
@@ -690,7 +694,8 @@
           "name": "CosyVoice3_CapDiT",
           "path": "media/CosyVoice3_CapDiT/000101.wav"
         }
-      ]
+      ],
+      "display_title": "Indignant Questioning"
     },
     {
       "id": "000141",
