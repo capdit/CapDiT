@@ -80,7 +80,7 @@ function renderCards(samples, cardsEl, cardTpl, trackTpl) {
     card.style.animationDelay = `${index * 50}ms`;
     card.classList.add("sample-card");
 
-    card.querySelector(".sample-id").textContent = sample.id;
+    card.querySelector(".sample-id").textContent = sample.display_title || sample.id;
     card.querySelector(".sample-meta").textContent = sample.category;
     card.querySelector(".sample-transcription").textContent = sample.transcription;
     card.querySelector(".sample-caption").textContent = sample.caption;
