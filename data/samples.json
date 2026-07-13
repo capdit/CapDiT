@@ -208,6 +208,7 @@
     {
       "id": "000025",
       "category": "cough",
+      "display_title": "Throat Clearing",
       "transcription": "[cough]，今天该我了，先说好，害怕的人现在就可以退出。",
       "caption": "In a game challenge scenario, the speaker's confident and mischievous tone shifts from neutral to bold, starting with a slight throat-clearing cough.",
       "tracks": [
@@ -248,8 +249,9 @@
     {
       "id": "000029",
       "category": "cough",
+      "display_title": "Sickly Cough",
       "transcription": "东西已经支开了，今天的水面好平静啊，早晨有风，[cough]虽然不太舒服啊，像这个钓鱼治百病。",
-      "caption": "户外钓鱼时的轻松幽默闲聊，情绪平静中带惬意，伴随轻微咳嗽",
+      "caption": "户外钓鱼时的轻松幽默闲聊，情绪平静中带惬意，伴随身体不适咳嗽",
       "tracks": [
         {
           "name": "Prompt",
@@ -258,46 +260,6 @@
         {
           "name": "Ground Truth",
           "path": "media/gt/000029.mp3"
-        },
-        {
-          "name": "CosyVoice3",
-          "path": "media/CosyVoice3/000029.wav"
-        },
-        {
-          "name": "OmniVoice",
-          "path": "media/OmniVoice/000029.wav"
-        },
-        {
-          "name": "F5_v1_FT",
-          "path": "media/F5_v1_FT/000029.wav"
-        },
-        {
-          "name": "CosyVoice3_FT",
-          "path": "media/CosyVoice3_FT/000029.wav"
-        },
-        {
-          "name": "F5_v1_CapDiT",
-          "path": "media/F5_v1_CapDiT/000029.wav"
-        },
-        {
-          "name": "CosyVoice3_CapDiT",
-          "path": "media/CosyVoice3_CapDiT/000029.wav"
-        }
-      ]
-    },
-    {
-      "id": "000194",
-      "category": "cough",
-      "transcription": "这这个[cough]这位姐姐她笑得很开心的，我想我相信她是很满意的。",
-      "caption": "In a casual conversation, the speaker observes another person's happiness with a brief throat-clearing cough.",
-      "tracks": [
-        {
-          "name": "Prompt",
-          "path": "media/prompt/000194.mp3"
-        },
-        {
-          "name": "Ground Truth",
-          "path": "media/gt/000194.mp3"
         },
         {
           "name": "CosyVoice3",
