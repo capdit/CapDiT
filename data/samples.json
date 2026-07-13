@@ -44,6 +44,7 @@
     {
       "id": "000062",
       "category": "laughter",
+      "display_title": "self-mocking chuckle",
       "transcription": "[laughter]，别人布一个迷雾阵就觉得对方是灵魂伴侣了。大家一定要睁大双眼，好好地去考虑。",
       "caption": "In a casual social commentary, the speaker begins with a self-mocking chuckle before delivering a serious warning about being deceived by illusions.",
       "tracks": [
@@ -82,48 +83,9 @@
       ]
     },
     {
-      "id": "000170",
-      "category": "laughter",
-      "transcription": "今天非常开心啊，也遇到了同样可能缺水的尉迟琳嘉老师[laughter]。",
-      "caption": "In a livestream commentary, the speaker expresses joyful excitement while making a playful joke about dehydration, followed by a light chuckle.",
-      "tracks": [
-        {
-          "name": "Prompt",
-          "path": "media/prompt/000170.mp3"
-        },
-        {
-          "name": "Ground Truth",
-          "path": "media/gt/000170.mp3"
-        },
-        {
-          "name": "CosyVoice3",
-          "path": "media/CosyVoice3/000170.wav"
-        },
-        {
-          "name": "OmniVoice",
-          "path": "media/OmniVoice/000170.wav"
-        },
-        {
-          "name": "F5_v1_FT",
-          "path": "media/F5_v1_FT/000170.wav"
-        },
-        {
-          "name": "CosyVoice3_FT",
-          "path": "media/CosyVoice3_FT/000170.wav"
-        },
-        {
-          "name": "F5_v1_CapDiT",
-          "path": "media/F5_v1_CapDiT/000170.wav"
-        },
-        {
-          "name": "CosyVoice3_CapDiT",
-          "path": "media/CosyVoice3_CapDiT/000170.wav"
-        }
-      ]
-    },
-    {
       "id": "000179",
       "category": "laughter",
+      "display_title": "gentle chuckle",
       "transcription": "你想象一下吧。[laughter]，好，但是思想上一定是成熟的。比如说家里面想到了什么样的事情，那么一定会给他做得很好，诶，面面俱到。所以如果一个人在你面前，你看啊平时跟你什么…",
       "caption": "在日常闲聊中，说话者从轻快愉悦的语气转为认真解释，开场处带有一声温和的轻笑。",
       "tracks": [
