@@ -325,7 +325,8 @@
           "name": "CosyVoice3_CapDiT",
           "path": "media/CosyVoice3_CapDiT/000035.wav"
         }
-      ]
+      ],
+      "display_title": "Sigh With Relief"
     },
     {
       "id": "000037",
@@ -365,7 +366,8 @@
           "name": "CosyVoice3_CapDiT",
           "path": "media/CosyVoice3_CapDiT/000037.wav"
         }
-      ]
+      ],
+      "display_title": "Frustrated Sigh"
     },
     {
       "id": "000038",
@@ -405,7 +407,8 @@
           "name": "CosyVoice3_CapDiT",
           "path": "media/CosyVoice3_CapDiT/000038.wav"
         }
-      ]
+      ],
+      "display_title": "Resigned Sigh"
     },
     {
       "id": "000049",
