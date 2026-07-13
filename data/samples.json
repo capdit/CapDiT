@@ -698,46 +698,6 @@
       "display_title": "Indignant Questioning"
     },
     {
-      "id": "000141",
-      "category": "question-en",
-      "transcription": "嗨，我叫黄蛋疼，我并非是一名宅男，只是看起来像而已。[question-en]？你问我为何辗转难眠？",
-      "caption": "直播个人介绍中，说话者以轻松自嘲的语气讲述，结尾以轻问语气引发思考。",
-      "tracks": [
-        {
-          "name": "Prompt",
-          "path": "media/prompt/000141.mp3"
-        },
-        {
-          "name": "Ground Truth",
-          "path": "media/gt/000141.mp3"
-        },
-        {
-          "name": "CosyVoice3",
-          "path": "media/CosyVoice3/000141.wav"
-        },
-        {
-          "name": "OmniVoice",
-          "path": "media/OmniVoice/000141.wav"
-        },
-        {
-          "name": "F5_v1_FT",
-          "path": "media/F5_v1_FT/000141.wav"
-        },
-        {
-          "name": "CosyVoice3_FT",
-          "path": "media/CosyVoice3_FT/000141.wav"
-        },
-        {
-          "name": "F5_v1_CapDiT",
-          "path": "media/F5_v1_CapDiT/000141.wav"
-        },
-        {
-          "name": "CosyVoice3_CapDiT",
-          "path": "media/CosyVoice3_CapDiT/000141.wav"
-        }
-      ]
-    },
-    {
       "id": "000142",
       "category": "question-en",
       "transcription": "哎，敢不敢转过身来，[question-en]？",
@@ -775,7 +735,8 @@
           "name": "CosyVoice3_CapDiT",
           "path": "media/CosyVoice3_CapDiT/000142.wav"
         }
-      ]
+      ],
+      "display_title": "Provocative Question"
     },
     {
       "id": "000157",
@@ -815,13 +776,14 @@
           "name": "CosyVoice3_CapDiT",
           "path": "media/CosyVoice3_CapDiT/000157.wav"
         }
-      ]
+      ],
+      "display_title": "Curious Question"
     },
     {
       "id": "000090",
       "category": "surprise-ah",
-      "transcription": "嘲讽，夸张                  哥们儿我就服你[surprise-ah]，姓苏的我就服你大写的服。",
-      "caption": "In a casual conversation, the speaker expresses admiration with a surprised exclamation.",
+      "transcription": "哥们儿我就服你[surprise-ah]，姓苏的我就服你大写的服。",
+      "caption": "In the casual conversation, the speaker used an exaggerated exclamation to express irony.",
       "tracks": [
         {
           "name": "Prompt",
@@ -855,12 +817,13 @@
           "name": "CosyVoice3_CapDiT",
           "path": "media/CosyVoice3_CapDiT/000090.wav"
         }
-      ]
+      ],
+      "display_title": "Exaggerated Irony"
     },
     {
       "id": "000094",
       "category": "surprise-ah",
-      "transcription": "放松，叹气                  [surprise-ah]有一点如释重负的感觉，就是给自己一个喘口气的机会。那也是到那个时候我才发现其实我已经很累了。对所以那阵子要好好地休息，可是…",
+      "transcription": "[surprise-ah]有一点如释重负的感觉，就是给自己一个喘口气的机会。那也是到那个时候我才发现其实我已经很累了。对所以那阵子要好好地休息，可是…",
       "caption": "In a personal conversation, the speaker expresses relief followed by tired realization, marked by an initial relieved sigh.",
       "tracks": [
         {
@@ -895,47 +858,8 @@
           "name": "CosyVoice3_CapDiT",
           "path": "media/CosyVoice3_CapDiT/000094.wav"
         }
-      ]
-    },
-    {
-      "id": "000096",
-      "category": "surprise-ah",
-      "transcription": "感慨                        困难或怎么样的话，还有这一群人一直在…[surprise-ah]在在支持我。",
-      "caption": "In a livestream confession, the speaker expresses grateful surprise with a light sigh of realization.",
-      "tracks": [
-        {
-          "name": "Prompt",
-          "path": "media/prompt/000096.mp3"
-        },
-        {
-          "name": "Ground Truth",
-          "path": "media/gt/000096.mp3"
-        },
-        {
-          "name": "CosyVoice3",
-          "path": "media/CosyVoice3/000096.wav"
-        },
-        {
-          "name": "OmniVoice",
-          "path": "media/OmniVoice/000096.wav"
-        },
-        {
-          "name": "F5_v1_FT",
-          "path": "media/F5_v1_FT/000096.wav"
-        },
-        {
-          "name": "CosyVoice3_FT",
-          "path": "media/CosyVoice3_FT/000096.wav"
-        },
-        {
-          "name": "F5_v1_CapDiT",
-          "path": "media/F5_v1_CapDiT/000096.wav"
-        },
-        {
-          "name": "CosyVoice3_CapDiT",
-          "path": "media/CosyVoice3_CapDiT/000096.wav"
-        }
-      ]
+      ],
+      "display_title": "Relieved Ah"
     },
     {
       "id": "000114",
